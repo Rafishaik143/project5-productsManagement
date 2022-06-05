@@ -37,7 +37,7 @@ router.delete("/users/:userId/cart", authentication, deleteCart)
 
 // Feature IV - order
 
-router.post("/users/:userId/orders",authentication, createOrder);
+router.post("/users/:userId/orders",createOrder);
 router.put("/users/:userId/orders", authentication,updateOrder);
 
 
